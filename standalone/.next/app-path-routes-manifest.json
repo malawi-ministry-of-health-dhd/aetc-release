@@ -3,8 +3,8 @@
   "/api/log-client-error/route": "/api/log-client-error",
   "/favicon.ico/route": "/favicon.ico",
   "/assessments/page": "/assessments",
-  "/changePassword/page": "/changePassword",
   "/awaiting-specialty/page": "/awaiting-specialty",
+  "/changePassword/page": "/changePassword",
   "/dashboard/page": "/dashboard",
   "/dispositions/page": "/dispositions",
   "/initial-registration/list/page": "/initial-registration/list",
@@ -60,6 +60,6 @@
   "/config/printers/create/page": "/config/printers/create",
   "/config/printers/page": "/config/printers",
   "/config/users/create/page": "/config/users/create",
-  "/config/printers/[id]/edit/page": "/config/printers/[id]/edit",
-  "/config/users/[id]/page": "/config/users/[id]"
+  "/config/users/[id]/page": "/config/users/[id]",
+  "/config/printers/[id]/edit/page": "/config/printers/[id]/edit"
 }

@@ -3,8 +3,8 @@
   "/api/log-client-error/route": "app/api/log-client-error/route.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/assessments/page": "app/assessments/page.js",
-  "/changePassword/page": "app/changePassword/page.js",
   "/awaiting-specialty/page": "app/awaiting-specialty/page.js",
+  "/changePassword/page": "app/changePassword/page.js",
   "/dashboard/page": "app/dashboard/page.js",
   "/dispositions/page": "app/dispositions/page.js",
   "/initial-registration/list/page": "app/initial-registration/list/page.js",
@@ -60,6 +60,6 @@
   "/config/printers/create/page": "app/config/printers/create/page.js",
   "/config/printers/page": "app/config/printers/page.js",
   "/config/users/create/page": "app/config/users/create/page.js",
-  "/config/printers/[id]/edit/page": "app/config/printers/[id]/edit/page.js",
-  "/config/users/[id]/page": "app/config/users/[id]/page.js"
+  "/config/users/[id]/page": "app/config/users/[id]/page.js",
+  "/config/printers/[id]/edit/page": "app/config/printers/[id]/edit/page.js"
 }
