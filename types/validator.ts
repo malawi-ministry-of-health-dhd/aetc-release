@@ -416,6 +416,24 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
+// Validate ../../app/radiology/[type]/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/radiology/[type]">> = Specific
+  const handler = {} as typeof import("../../app/radiology/[type]/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../app/radiology/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/radiology">> = Specific
+  const handler = {} as typeof import("../../app/radiology/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../app/registration/[id]/new/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/registration/[id]/new">> = Specific

@@ -204,6 +204,14 @@
       "namedRegex": "^/prescreening/(?<nxtPid>[^/]+?)(?:/)?$"
     },
     {
+      "page": "/radiology/[type]",
+      "regex": "^/radiology/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPtype": "nxtPtype"
+      },
+      "namedRegex": "^/radiology/(?<nxtPtype>[^/]+?)(?:/)?$"
+    },
+    {
       "page": "/registration/death/[id]/edit",
       "regex": "^/registration/death/([^/]+?)/edit(?:/)?$",
       "routeKeys": {
@@ -380,6 +388,12 @@
       "regex": "^/prescreening(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/prescreening(?:/)?$"
+    },
+    {
+      "page": "/radiology",
+      "regex": "^/radiology(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/radiology(?:/)?$"
     },
     {
       "page": "/registration",
